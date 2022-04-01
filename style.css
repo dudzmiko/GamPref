@@ -212,3 +212,33 @@ footer {
   margin-top: auto;
   padding-bottom: 10px;
 }
+
+.contact_wrapper ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.contact_wrapper li {
+  list-style: none;
+  padding: 10px;
+  margin: 0px;
+
+  display: flex;
+  align-items: center;
+
+  background-color: white;
+  color: black;
+
+  font-size: 18px;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: all 0.1s ease;
+}
+.contact_wrapper ul li svg {
+  height: 48px;
+  margin-right: 20px;
+}
